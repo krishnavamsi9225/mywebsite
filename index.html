@@ -9,6 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style>
+       .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
   .container {
   position: relative;
   width: 100%;
@@ -29,26 +33,45 @@
 </style>
 </head>
   <body>
+    
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#home" style="color: white;">Vijaya sri metal stores</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#projects">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<!--<div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
     <a href="#home" class="w3-bar-item w3-button"><b>VIJAYA SRI METAL STORES</a>
-    <!-- Float links to the right. Hide them on small screens -->
+    < Float links to the right. Hide them on small screens 
     <div class="w3-right w3-hide-small">
       <a href="#projects" class="w3-bar-item w3-button">Our Products</a>
       <a href="#about" class="w3-bar-item w3-button">About Us</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact Us</a>
     </div>
   </div>
-</div>
+</div>-->
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="personalproject\thumbnail.png" alt="Architecture" width="1500" height="500">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-medium w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BRASS<br>&<br>COPPER</b></h1>
-  </div>
 </header>
 
 <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
