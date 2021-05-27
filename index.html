@@ -9,11 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style>
-       .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-      color: white;
-    }
        .container {
   position: relative;
   width: 100%;
@@ -35,27 +30,19 @@
 <body>
 
 <!-- Navbar (sit on top) -->
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="#home" style="color: white; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Vijaya sri metal stores</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#projects">Products</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+<div class="w3-top">
+  
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>VIJAYA SRI METAL STORES</a>
+    Float links to the right. Hide them on small screens 
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Products</a>
+      <a href="#about" class="w3-bar-item w3-button">About Us</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
-  </nav>
+    </div>
 
+</div>
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="personalproject\thumbnail.png" alt="Architecture" width="1500" height="500">
